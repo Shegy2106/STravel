@@ -45,4 +45,5 @@ dependencies {
     implementation 'org.apache.directory.studio:org.apache.commons.io:2.4'
     implementation 'com.r0adkll:slidableactivity:2.0.6'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'org.libtorrent4j:libtorrent4j-android-arm64:1.2.0.21'
 }

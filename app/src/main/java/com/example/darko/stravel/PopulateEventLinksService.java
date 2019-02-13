@@ -35,7 +35,7 @@ public class PopulateEventLinksService extends Service {
             @Override
             public void run() {
                 try {
-                    Document doc = Jsoup.connect("http://infozona.hr/calendar/weekly").get();
+                    Document doc = Jsoup.connect("http://infozona.hr/kalendar").get();
                     links=doc.select("a").select(".thickboxx");
                     int i=0;
                     for(Element n:links){
